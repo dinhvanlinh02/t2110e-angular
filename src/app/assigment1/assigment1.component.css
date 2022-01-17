@@ -1,0 +1,41 @@
+.Form{
+  width: 400px;
+  height: 340px;
+  font-size: 24px;
+}
+input{
+  height: 25px;
+  float: right;
+  width: 300px;
+  font-size: 18px;
+  color: #c50c0c;
+  border: gray 2px solid;
+  border-radius: 4px;
+}
+
+select{
+  height: 30px;
+  margin-left: 15px;
+  font-size: 18px;
+  border: gray 2px solid;
+  border-radius: 4px;
+}
+button{
+  height: 40px;
+  width: 125px;
+  font-size: 17px;
+  background-color: #6666f3;
+  transition: 0.4s;
+  color: white;
+  cursor: pointer;
+}
+button:hover{
+  background-color: #0531b0;
+  color: white;
+}
+.List{
+  width: 1000px;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
